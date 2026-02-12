@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MynTech Design</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<header>
+<nav class="navbar">
+    <ul class="menu">
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#como">Cómo funciona</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#contacto" class="btn-descuento">Pide tu descuento</a></li>
+
+    </ul>
+</nav>
+</header>
+
+<section class="hero">
+    <div class="hero-grid">
+        <div class="hero-logo">
+            <img src="img/logo.png" alt="MynTech Design">
+        </div>
+
+        <div class="hero-text">
+            <h1>Diseños digitales para enamorar</h1>
+            <p>Crea experiencias románticas personalizadas para sorprender en momentos especiales.</p>
+        </div>
+
+        <div class="hero-buttons">
+            <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+            <a href="#contacto" class="btn-outline">Crear mi diseño</a>
+        </div>
+    </div>
+</section>
+
+<section id="catalogo" class="catalogo">
+<h2 class="titulo-seccion">Catálogo</h2>
+
+<div class="grid">
+
+<!-- PRODUCTO -->
+<div class="card">
+<video src="videos/demo1.mp4" controls></video>
+<h3>Rompecabezas de Amor</h3>
+<p>Convierte su foto favorita en un puzzle romántico digital.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo2.mp4" controls></video>
+<h3>Canción Personalizada</h3>
+<p>Tu canción especial mostrando su letra en una página dedicada.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo3.mp4" controls></video>
+<h3>Corazón con Tu Nombre</h3>
+<p>Su nombre formando un corazón animado.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo4.mp4" controls></video>
+<h3>Acróstico Especial</h3>
+<p>Un acróstico digital elegante con su nombre.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo5.mp4" controls></video>
+<h3>Acta de Compromiso</h3>
+<p>Un documento romántico digital para sellar tu amor.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo6.mp4" controls></video>
+<h3>Galaxia Poética</h3>
+<p>Un universo lleno de frases y emociones.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo7.mp4" controls></video>
+<h3>Historia Interactiva</h3>
+<p>Una experiencia estilo historia digital personalizada.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo8.mp4" controls></video>
+<h3>¿Quieres ser mi novia?</h3>
+<p>Una propuesta divertida y memorable.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo9.mp4" controls></video>
+<h3>Carta Digital con Foto</h3>
+<p>Una carta romántica acompañada de su imagen especial.</p>
+<button>Comprar</button>
+</div>
+
+<!-- NUEVOS PRODUCTOS -->
+<div class="card">
+<video src="videos/demo10.mp4" controls></video>
+<h3>Línea de Tiempo Romántica</h3>
+<p>Cuenta su historia con fechas importantes y momentos inolvidables.</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<video src="videos/demo11.mp4" controls></video>
+<h3>WhatsApp Interactivo</h3>
+<p>Simulación divertida estilo chat preguntando: ¿Quieres ser mi novio/a?</p>
+<button>Comprar</button>
+</div>
+
+</div>
+</section>
+
+<section id="como" class="como">
+<h2 class="titulo-seccion">Cómo funciona</h2>
+<div class="steps">
+<div class="step">
+<h3>1. Elige tu diseño</h3>
+<p>Selecciona el modelo romántico que más te guste.</p>
+</div>
+<div class="step">
+<h3>2. Personaliza</h3>
+<p>Agrega nombres, fotos o mensajes especiales.</p>
+</div>
+<div class="step">
+<h3>3. Recibe tu página</h3>
+<p>Obtén tu diseño listo para compartir.</p>
+</div>
+</div>
+</section>
+
+<section id="contacto" class="contacto">
+<h2 class="titulo-seccion">Contacto</h2>
+<form id="formulario">
+<input type="text" id="nombre" placeholder="Tu nombre" required>
+<input type="email" id="correo" placeholder="Tu correo" required>
+<textarea id="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+<button type="submit">Enviar por WhatsApp</button>
+</form>
+</section>
+
+<footer>
+<h3>MynTech Design</h3>
+<div class="social">
+<a href="#">Instagram</a>
+<a href="#">TikTok</a>
+<a href="#">WhatsApp</a>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
